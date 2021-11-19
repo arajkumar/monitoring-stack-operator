@@ -63,7 +63,7 @@ jobs:
         run: make bundle-image
 
   e2e-tests-olm:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
 
