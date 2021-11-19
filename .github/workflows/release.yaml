@@ -1,6 +1,7 @@
 # Decide between Pre-Release and Development Release
 name: release
 on:
+  workflow_dispatch:
   push:
     branches: [main]
 
